@@ -1,0 +1,6 @@
+type Query {
+    health: String!
+    listings: [Listing!]!
+}
+
+#import 'Listing.graphql'

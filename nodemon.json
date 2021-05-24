@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "runOnChangeOnly": false,
+  "ignore": ["node_modules","dist"],
+  "watch": ["src","package.json"],
+  "ext": "js,ts",
+  "exec": "yarn dev:start",
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
